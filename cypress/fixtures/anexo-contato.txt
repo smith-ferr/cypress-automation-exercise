@@ -1,0 +1,1 @@
+Arquivo de exemplo usado no teste de envio do formulário de contato.

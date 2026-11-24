@@ -1,0 +1,19 @@
+{
+  "nome": "Usuario Teste QA",
+  "senha": "SenhaTeste@123",
+  "tratamento": "Mr",
+  "diaNascimento": "15",
+  "mesNascimento": "6",
+  "nomeMesNascimento": "June",
+  "anoNascimento": "1998",
+  "primeiroNome": "Usuario",
+  "sobrenome": "Teste",
+  "empresa": "Empresa Ficticia",
+  "endereco": "Rua dos Testes, 100",
+  "complemento": "Sala 2",
+  "pais": "Canada",
+  "estado": "Ontario",
+  "cidade": "Toronto",
+  "cep": "M5V 2T6",
+  "celular": "4165550100"
+}

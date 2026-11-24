@@ -1,0 +1,36 @@
+name: Testes Cypress
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+  # Execução diária para detectar mudanças no site mesmo sem alterações no código dos testes.
+  schedule:
+    - cron: '0 10 * * *'
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Preparar o Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Rodar os testes de API e de interface
+        uses: cypress-io/github-action@v6
+        with:
+          browser: chrome
+
+      - name: Publicar o relatório de execução
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-de-testes
+          path: cypress/reports
+          retention-days: 14

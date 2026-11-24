@@ -1,0 +1,15 @@
+{
+  "loginInvalido": "Your email or password is incorrect!",
+  "emailJaCadastrado": "Email Address already exist!",
+  "contaCriada": "Account Created!",
+  "contaExcluida": "Account Deleted!",
+  "carrinhoVazio": "Cart is empty!",
+  "contatoEnviado": "Success! Your details have been submitted successfully.",
+  "metodoNaoSuportado": "This request method is not supported.",
+  "usuarioExiste": "User exists!",
+  "usuarioNaoEncontrado": "User not found!",
+  "usuarioCriado": "User created!",
+  "contaExcluidaApi": "Account deleted!",
+  "parametroBuscaAusente": "Bad request, search_product parameter is missing in POST request.",
+  "parametroLoginAusente": "Bad request, email or password parameter is missing in POST request."
+}
