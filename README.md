@@ -34,6 +34,8 @@ Todos os casos estão documentados em [docs/casos-de-teste.md](docs/casos-de-tes
 
 ## Como executar
 
+Passo a passo completo, com o modo visual: [docs/como-executar.md](docs/como-executar.md)
+
 Pré-requisito: [Node.js](https://nodejs.org) 20 ou superior.
 
 ```bash
